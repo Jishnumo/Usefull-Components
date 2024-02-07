@@ -13,13 +13,29 @@ form {
 }
 input {
   position: absolute;
-  padding: 20px 40px;
-  z-index: 1111;
+  padding: 20px 35px;
+  border: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  z-index: 2;
 }
 .name {
-  font-size: 1.2rem;
+  font-size: 1.03rem;
   position: absolute;
-  padding-bottom: 3.9rem;
-  padding-right: 6.9rem;
-  z-index: 1111;
+  padding-right: 9.4rem;
+  font-weight: 400;
+  transition: all 0.3s;
+  z-index: 2;
+}
+input:focus,
+input.valid {
+  color: rgb(59, 248, 21);
+  border: 3px solid rgb(59, 248, 21);
+}
+input:focus + .name,
+input.valid + .name {
+  color: rgb(59, 248, 21);
+  transform: translateX(-190%);
+  transform: translateY(-185%);
 }
