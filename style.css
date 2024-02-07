@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+form {
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  position: absolute;
+  padding: 20px 40px;
+  z-index: 1111;
+}
+.name {
+  font-size: 1.2rem;
+  position: absolute;
+  padding-bottom: 3.9rem;
+  padding-right: 6.9rem;
+  z-index: 1111;
+}
