@@ -27,6 +27,7 @@ input {
   font-weight: 400;
   transition: all 0.3s;
   padding: 0 10px;
+  text-align: center;
 }
 input:focus,
 input.valid {
@@ -36,7 +37,6 @@ input.valid {
 input:focus + .name,
 input.valid + .name {
   color: rgb(59, 248, 21);
-  left: 10%;
   transform: translateY(-205%);
   display: block;
   background-color: white;
