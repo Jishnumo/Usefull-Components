@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.logon {
+  border: 0.5px solid black;
+  padding: 20px 30px;
+  background-color: blueviolet;
+  height: 60vh;
+  border-radius: 13px;
+}
+.l {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.one {
+  background: transparent;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1.3rem;
+  margin: 2rem;
+  color: white;
+}
+.two {
+  background: transparent;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1.3rem;
+  margin: 0 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 350px;
+  border-radius: 20px;
+  background: transparent;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+input::placeholder {
+  color: white;
+}
+.remember {
+  color: white;
+}
+p {
+  text-align: center;
+  color: white;
+}
