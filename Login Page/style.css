@@ -20,7 +20,7 @@ body {
   background: transparent;
   height: 60vh;
   border-radius: 13px;
-  box-shadow: 7px 10px 17px rgba(65, 63, 63, 0.517);
+  box-shadow: 7px 10px 17px rgba(33, 32, 32, 0.517);
 }
 .l {
   position: relative;
